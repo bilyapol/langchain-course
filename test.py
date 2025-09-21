@@ -1,6 +1,7 @@
 # test_env.py (or add to hello.py)
-from dotenv import load_dotenv
 import os
+
+from dotenv import load_dotenv
 
 load_dotenv()  # Loads .env from current directory (project root)
 
